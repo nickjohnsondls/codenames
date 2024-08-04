@@ -1,4 +1,4 @@
-#Codenames Project
+# Codenames Project
 Overview
 The Codenames project, developed by the Michigan Data Science Team, centers around building and testing models based on word vector representations. This repository contains data files and Jupyter notebooks that facilitate the creation and evaluation of these models.
 
