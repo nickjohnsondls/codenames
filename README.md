@@ -21,7 +21,6 @@ FastText.ipynb: This notebook explores the use of FastText, an alternative to Wo
 
 member_models/HenryDrew QLearn.ipynb: A specialized Q-learning method developed by team member Henry Drew. This notebook includes unique approaches and optimizations for the reinforcement learning process.
 
-Other Files
 README.md: Provides an overview and instructions for the Codenames project.
 
 .DS_Store: A system file for macOS directory metadata.
