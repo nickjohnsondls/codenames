@@ -1,33 +1,29 @@
-# Codenames Project
+#Codenames Project
 Overview
-The Codenames project is developed by the Michigan Data Science Team. This repository contains data files and code that together form the foundation for a Word2Vec model, which is essential for our project's main functionality. The project revolves around creating and testing models that leverage word vector representations.
+The Codenames project, developed by the Michigan Data Science Team, centers around building and testing models based on word vector representations. This repository contains data files and Jupyter notebooks that facilitate the creation and evaluation of these models.
 
 Repository Structure
 Data Files
-codenames_word_data.csv: This file contains the word data used in the Codenames project.
-english_dictionary.csv: This file includes words along with their definitions from the English dictionary.
+cleaned_dict.csv: A cleaned version of the dictionary data used for model training.
+wordlist-eng.txt: A text file containing a list of English words used in the project.
 Jupyter Notebooks
-create_model.ipynb: This notebook is used to load the dictionary data and create a simple Word2Vec model. The model is trained on the words and their definitions from the english_dictionary.csv file. This Word2Vec model will be the foundation for our project.
+create_model.ipynb: This notebook loads the dictionary data from cleaned_dict.csv and creates a Word2Vec model. The trained model is saved for further use in the project.
 
-example_function_code.ipynb: This notebook contains example functions that demonstrate how to use the Word2Vec model created in create_model.ipynb. It includes functions for processing words and generating their vector representations.
+example_function_code.ipynb: Demonstrates example functions that utilize the Word2Vec model created in create_model.ipynb. It includes functions for processing words and generating vector representations.
 
-model_tester.ipynb: This notebook is designed to test the Word2Vec models. It includes various methods to evaluate the performance of the models and ensures that they are functioning correctly.
+model_tester.ipynb: Tests the Word2Vec models created. This notebook includes various methods to evaluate the performance of the models.
 
-qLearn.ipynb: This notebook implements a Q-learning-like method. It contains code for reinforcement learning algorithms that can be applied to the Word2Vec model to improve its performance in specific tasks.
+qLearn.ipynb: Implements a Q-learning-like method. It contains code for reinforcement learning algorithms that can be applied to the Word2Vec model to enhance its performance.
 
-member_models/HenryDrew QLearn.ipynb: This notebook is a variant of the Q-learning method, specifically tailored by team member Henry Drew. It includes unique approaches and optimizations for the reinforcement learning process.
+q_learning.ipynb: Provides a simple example of a Q-learning implementation. This notebook demonstrates the basics of reinforcement learning using Q-learning techniques.
+
+FastText.ipynb: This notebook explores the use of FastText, an alternative to Word2Vec, for generating word vector representations.
+
+member_models/HenryDrew QLearn.ipynb: A specialized Q-learning method developed by team member Henry Drew. This notebook includes unique approaches and optimizations for the reinforcement learning process.
+
+Other Files
+README.md: Provides an overview and instructions for the Codenames project.
+
+.DS_Store: A system file for macOS directory metadata.
 
 Usage
-Creating the Word2Vec Model:
-
-Open create_model.ipynb.
-Run the cells to load the dictionary data and create the Word2Vec model.
-Save the trained model for further use.
-Using Example Functions:
-
-Open example_function_code.ipynb.
-Run the cells to see example functions in action. These functions demonstrate how to use the Word2Vec model for various tasks.
-Testing the Model:
-
-Open model_tester.ipynb.
-Run the cells to test the performance of the Word2Vec model. This notebook includes several evaluation metrics to ensure the model's accuracy and effectiveness.
