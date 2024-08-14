@@ -4,7 +4,8 @@
 https://docs.google.com/presentation/d/1EEHSw-WKN6Oes6NFfYK7iZHj91J1CgmHiiV8aO99r6I/edit#slide=id.g2ccd0e1ea87_0_103
 
 ## Overview
-The Codenames project, developed by the Michigan Data Science Team, centers around building and testing models based on word vector representations. This repository contains data files and Jupyter notebooks that facilitate the creation and evaluation of these models.
+The Codenames project, developed by the Michigan Data Science Team, aims around developing guesser bots using K-Means Clustering (KNN), Q-Learning, and NLP, to refine decision-making strategies to come within 44.5% accurate guesses of actual gamebot. We centered this project around building and testing models based on word vector representations. This repository contains data files and Jupyter notebooks that facilitate the creation and evaluation of these models. 
+
 
 ## Repository Structure
 Data Files
