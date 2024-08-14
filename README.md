@@ -1,4 +1,5 @@
 # Codenames Project
+<href = "https://docs.google.com/presentation/d/1EEHSw-WKN6Oes6NFfYK7iZHj91J1CgmHiiV8aO99r6I/edit#slide=id.g2ccd0e1ea87_0_103">
 Overview
 The Codenames project, developed by the Michigan Data Science Team, centers around building and testing models based on word vector representations. This repository contains data files and Jupyter notebooks that facilitate the creation and evaluation of these models.
 
@@ -25,4 +26,5 @@ README.md: Provides an overview and instructions for the Codenames project.
 
 .DS_Store: A system file for macOS directory metadata.
 
-Usage
+
+<img width="624" alt="Screenshot 2024-08-13 at 5 01 23 PM" src="https://github.com/user-attachments/assets/c324cdb7-f171-4aa5-94cb-1f159551135e">
